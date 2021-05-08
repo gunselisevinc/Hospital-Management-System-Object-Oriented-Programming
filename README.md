@@ -13,7 +13,7 @@ For each employee, following are stored:
 * Address (data type: char pointer)
 * Email address (data type: char pointer)
 * Annual salary
-For each employee following member functions were implemented :
+For each employee following member functions are implemented :
 * A default constructor
 * A constructor to initialise Employee ID, First name, Last name, Telephone number, Address, Email address and Annual Salary
 * Getter and setter functions for each of the member variables
@@ -21,6 +21,12 @@ For each employee following member functions were implemented :
 address
 
 ### Doctor
+Each doctor is an employee with the following additional properties:
+* Title (Intern, Practitioner, Assistant, Specialist, Docent, Professor) -> enumeration used
+For each doctor following member functions are implemented :
+* A default constructor
+* A constructor to initialise all of the member variables
+* Getter and setter functions for each of the member variables
 
 ### Nurse
 
